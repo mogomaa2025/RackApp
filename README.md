@@ -1,10 +1,11 @@
 # About
 
-This App calculate The total paint of racks using length and width
-All data in json file in the assets and it move to /sdcard/rack_data.json to read and write and transfer the data to another device
-This app can work offline without internet
-Your Backup i just copy the /sdcard/rack_data.json file to another device and the app will read them automatically.
-This Project started as nextjs web page so neglect any nextjs files in the project focus on dart flutter files.
+- This App calculate The total paint of racks using length and width
+- All data in json file in the assets and it move to /sdcard/rack_data.json to read and write and transfer the data to another device
+- This app can work offline without internet
+- Your Backup i just copy the /sdcard/rack_data.json file to another device and the app will read them automatically.
+- This app contains password for the admin panel.
+- This Project started as nextjs web page so neglect any nextjs files in the project focus on dart flutter files.
 
 # App View In Android
 
