@@ -1,0 +1,194 @@
+{
+  "categories": [
+    {
+      "id": "vertical_rack",
+      "name": "Vertical Rack",
+      "models": [
+        {
+          "id": "vertical_rack_530_120_2u",
+          "name": "Vertical_Rack_530_120_2U",
+          "description": "Rack Main Body",
+          "lengthMm": 318.6,
+          "widthMm": 798.62,
+          "quantityFor1Rack": 1.0
+        }
+      ]
+    },
+    {
+      "id": "slim_rack",
+      "name": "Slim Rack",
+      "models": [
+        {
+          "id": "slim_rack_500_475_5u",
+          "name": "Slim_Rack_500_475_5U",
+          "description": "Slim Rack Main Body",
+          "lengthMm": 651.77,
+          "widthMm": 768.65,
+          "quantityFor1Rack": 1.0
+        }
+      ]
+    },
+    {
+      "id": "wnr_premium",
+      "name": "WNR Premium",
+      "models": [
+        {
+          "id": "wnr_600_450_12u",
+          "name": "WNR_600_450_12U",
+          "description": "Roof",
+          "lengthMm": 723.42,
+          "widthMm": 560.88,
+          "quantityFor1Rack": 1.0
+        },
+        {
+          "id": "wnr_600_450_15u",
+          "name": "WNR_600_450_15U",
+          "description": "Roof",
+          "lengthMm": 723.42,
+          "widthMm": 560.88,
+          "quantityFor1Rack": 1.0
+        },
+        {
+          "id": "wnr_600_450_4u",
+          "name": "WNR_600_450_4U",
+          "description": "Roof",
+          "lengthMm": 723.42,
+          "widthMm": 560.88,
+          "quantityFor1Rack": 1.0
+        },
+        {
+          "id": "wnr_600_450_6u",
+          "name": "WNR_600_450_6U",
+          "description": "Roof",
+          "lengthMm": 723.42,
+          "widthMm": 560.88,
+          "quantityFor1Rack": 1.0
+        },
+        {
+          "id": "wnr_600_450_9u",
+          "name": "WNR_600_450_9U",
+          "description": "Roof",
+          "lengthMm": 723.42,
+          "widthMm": 560.88,
+          "quantityFor1Rack": 1.0
+        },
+        {
+          "id": "wnr_600_600_12u",
+          "name": "WNR_600_600_12U",
+          "description": "Roof",
+          "lengthMm": 723.42,
+          "widthMm": 710.88,
+          "quantityFor1Rack": 1.0
+        },
+        {
+          "id": "wnr_600_600_15u",
+          "name": "WNR_600_600_15U",
+          "description": "Roof",
+          "lengthMm": 723.42,
+          "widthMm": 710.88,
+          "quantityFor1Rack": 1.0
+        },
+        {
+          "id": "wnr_600_600_4u",
+          "name": "WNR_600_600_4U",
+          "description": "Roof",
+          "lengthMm": 723.42,
+          "widthMm": 710.88,
+          "quantityFor1Rack": 1.0
+        },
+        {
+          "id": "wnr_600_600_6u",
+          "name": "WNR_600_600_6U",
+          "description": "Roof",
+          "lengthMm": 723.42,
+          "widthMm": 710.88,
+          "quantityFor1Rack": 1.0
+        },
+        {
+          "id": "wnr_600_600_9u",
+          "name": "WNR_600_600_9U",
+          "description": "Roof",
+          "lengthMm": 723.42,
+          "widthMm": 710.88,
+          "quantityFor1Rack": 1.0
+        }
+      ]
+    },
+    {
+      "id": "wnr_economy",
+      "name": "WNR Economy",
+      "models": [
+        {
+          "id": "wnr_530_400_12u",
+          "name": "WNR_530_400_12U",
+          "description": "Roof",
+          "lengthMm": 503.28,
+          "widthMm": 680.65,
+          "quantityFor1Rack": 1.0
+        },
+        {
+          "id": "wnr_530_400_15u",
+          "name": "WNR_530_400_15U",
+          "description": "Roof",
+          "lengthMm": 503.28,
+          "widthMm": 680.65,
+          "quantityFor1Rack": 1.0
+        },
+        {
+          "id": "wnr_530_400_4u",
+          "name": "WNR_530_400_4U",
+          "description": "Roof",
+          "lengthMm": 503.28,
+          "widthMm": 680.65,
+          "quantityFor1Rack": 1.0
+        },
+        {
+          "id": "wnr_530_400_6u",
+          "name": "WNR_530_400_6U",
+          "description": "Roof",
+          "lengthMm": 503.28,
+          "widthMm": 680.65,
+          "quantityFor1Rack": 1.0
+        },
+        {
+          "id": "wnr_530_400_9u",
+          "name": "WNR_530_400_9U",
+          "description": "Roof",
+          "lengthMm": 503.28,
+          "widthMm": 680.65,
+          "quantityFor1Rack": 1.0
+        }
+      ]
+    },
+    {
+      "id": "wnr_economy_cus",
+      "name": "WNR Economy Cus",
+      "models": [
+        {
+          "id": "wnr_530_400_6u",
+          "name": "WNR_530_400_6U",
+          "description": "Roof",
+          "lengthMm": 603.28,
+          "widthMm": 680.65,
+          "quantityFor1Rack": 1.0
+        },
+        {
+          "id": "wnr_530_450_4u",
+          "name": "WNR_530_450_4U",
+          "description": "Roof",
+          "lengthMm": 553.28,
+          "widthMm": 680.65,
+          "quantityFor1Rack": 1.0
+        },
+        {
+          "id": "wnr_530_450_6u",
+          "name": "WNR_530_450_6U",
+          "description": "Roof",
+          "lengthMm": 553.28,
+          "widthMm": 680.65,
+          "quantityFor1Rack": 1.0
+        }
+      ]
+    }
+  ]
+}

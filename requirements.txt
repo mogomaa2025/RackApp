@@ -1,0 +1,337 @@
+You are an expert Flutter developer and designer. Create a complete Flutter project for an Android application called "Rackulator" with a design that closely matches the provided style guide.
+
+# Application Overview
+
+"Rackulator" is an application designed to calculate paint usage for various rack configurations. It has two primary sections:
+
+1.  **Rack Page:** A user-facing section for viewing rack data.
+2.  **Admin Panel:** A password-protected section for managing rack data.
+
+# Core Features
+
+*   **Rack Data Display:** Display rack data including fixed values and calculated values based on user selections of Main Category and Subcategory.
+*   **Admin Panel:**
+    *   Password-protected access (password: 25212521).
+    *   Ability to edit Main Category names.
+    *   Ability to edit Subcategory names.
+    *   Ability to edit fixed data values (Description, Length_mm, Width_mm, Quantity_for_1_Rack).
+    *   Ability to edit the calculation equations.
+    *   Ability to add new categories (with subcategories and data).
+    *   Ability to delete existing categories and subcategories.
+    *   All changes are saved to a JSON file within the app's assets.
+*   **Category Management:** Manage rack categories, subcategories, and their associated data.
+
+# Functional Requirements
+
+## Rack Page (User View)
+
+*   **Main Menu (MainCategory):**
+    *   Vertical\_Rack
+    *   Slim\_Rack
+    *   WNR\_Premium
+    *   WNR\_Economy
+    *   WNR\_Economy\_Cus
+*   **Sub Menu (Subcategory):**
+    *   Each Main Category has specific rack models as subcategories:
+        *   **Vertical\_Rack:**
+            *   Vertical\_Rack\_530\_120\_2U
+        *   **Slim\_Rack:**
+            *   Slim\_Rack\_500\_475\_5U
+        *   **WNR\_Premium:**
+            *   WNR\_600\_450\_12U
+            *   WNR\_600\_450\_15U
+            *   WNR\_600\_450\_4U
+            *   WNR\_600\_450\_6U
+            *   WNR\_600\_450\_9U
+            *   WNR\_600\_600\_12U
+            *   WNR\_600\_600\_15U
+            *   WNR\_600\_600\_4U
+            *   WNR\_600\_600\_6U
+            *   WNR\_600\_600\_9U
+        *   **WNR\_Economy:**
+            *   WNR\_530\_400\_12U
+            *   WNR\_530\_400\_15U
+            *   WNR\_530\_400\_4U
+            *   WNR\_530\_400\_6U
+            *   WNR\_530\_400\_9U
+        *   **WNR\_Economy\_Cus:**
+            *   WNR\_530\_400\_6U
+            *   WNR\_530\_450\_4U
+            *   WNR\_530\_450\_6U
+*   **Data:**
+    *   **Fixed Values:**
+        *   Description (e.g., "Rack Main Body", "Roof")
+        *   Length\_mm (e.g., 318.6)
+        *   Width\_mm (e.g., 798.62)
+        *   Quantity\_for\_1\_Rack (e.g., 1.0)
+    *   **Calculated Values:**
+        *   Total\_Area\_mm2 = Length\_mm \* Width\_mm
+        *   Total\_Area\_m2 = Total\_Area\_mm2 / 10^6
+        *   Total\_Area = Total\_Area\_m2 \* Quantity\_for\_1\_Rack \* 2
+        *   Total\_Paint\_kg = Total\_Area / 7
+        *   Total\_Paint\_g = Total\_Paint\_kg \* 1000
+*   **Rack Page Data Display** it show only:
+    * MainCategory.
+    * SubCategory.
+    * it's data : Just \[Description-Total Paint in (Kg)-Total paint in gram].
+* **mainPage** contain two buttons :
+   * A - button Go To "Rack".
+   * B - button Go To "Admin Panel".
+*   All rack category data is :
+* **Vertical_Rack**
+     * Vertical_Rack_530_120_2U
+       *   Description: Rack Main Body
+       *   Length\_mm: 318.6
+       *   Width\_mm: 798.62
+       *   Quantity\_for\_1\_Rack: 1.0
+* **Slim_Rack**
+     *  Slim_Rack_500_475_5U
+          *  Description: Slim Rack Main Body
+          *   Length\_mm: 651.77
+          *   Width\_mm: 768.65
+          *   Quantity\_for\_1\_Rack: 1.0
+* **WNR_Premium**
+     * WNR_600_450_12U
+          * Description: Roof
+          * Length_mm: 723.42
+          * Width_mm: 560.88
+          * Quantity_for_1_Rack: 1.0
+     * WNR_600_450_15U
+          * Description: Roof
+          * Length_mm: 723.42
+          * Width_mm: 560.88
+          * Quantity_for_1_Rack: 1.0
+     * WNR_600_450_4U
+          * Description: Roof
+          * Length_mm: 723.42
+          * Width_mm: 560.88
+          * Quantity_for_1_Rack: 1.0
+     * WNR_600_450_6U
+          * Description: Roof
+          * Length_mm: 723.42
+          * Width_mm: 560.88
+          * Quantity_for_1_Rack: 1.0
+     * WNR_600_450_9U
+          * Description: Roof
+          * Length_mm: 723.42
+          * Width_mm: 560.88
+          * Quantity_for_1_Rack: 1.0
+     * WNR_600_600_12U
+          * Description: Roof
+          * Length_mm: 723.42
+          * Width_mm: 710.88
+          * Quantity_for_1_Rack: 1.0
+     * WNR_600_600_15U
+          * Description: Roof
+          * Length_mm: 723.42
+          * Width_mm: 710.88
+          * Quantity_for_1_Rack: 1.0
+     * WNR_600_600_4U
+          * Description: Roof
+          * Length_mm: 723.42
+          * Width_mm: 710.88
+          * Quantity_for_1_Rack: 1.0
+     * WNR_600_600_6U
+          * Description: Roof
+          * Length_mm: 723.42
+          * Width_mm: 710.88
+          * Quantity_for_1_Rack: 1.0
+     * WNR_600_600_9U
+          * Description: Roof
+          * Length_mm: 723.42
+          * Width_mm: 710.88
+          * Quantity_for_1_Rack: 1.0
+* **WNR_Economy**
+     * WNR_530_400_12U
+          * Description: Roof
+          * Length_mm: 503.28
+          * Width_mm: 680.65
+          * Quantity_for_1_Rack: 1.0
+     * WNR_530_400_15U
+          * Description: Roof
+          * Length_mm: 503.28
+          * Width_mm: 680.65
+          * Quantity_for_1_Rack: 1.0
+     * WNR_530_400_4U
+          * Description: Roof
+          * Length_mm: 503.28
+          * Width_mm: 680.65
+          * Quantity_for_1_Rack: 1.0
+     * WNR_530_400_6U
+          * Description: Roof
+          * Length_mm: 503.28
+          * Width_mm: 680.65
+          * Quantity_for_1_Rack: 1.0
+     * WNR_530_400_9U
+          * Description: Roof
+          * Length_mm: 503.28
+          * Width_mm: 680.65
+          * Quantity_for_1_Rack: 1.0
+* **WNR_Economy_Cus**
+     * WNR_530_400_6U
+          * Description: Roof
+          * Length_mm: 603.28
+          * Width_mm: 680.65
+          * Quantity_for_1_Rack: 1.0
+     * WNR_530_450_4U
+          * Description: Roof
+          * Length_mm: 553.28
+          * Width_mm: 680.65
+          * Quantity_for_1_Rack: 1.0
+     * WNR_530_450_6U
+          * Description: Roof
+          * Length_mm: 553.28
+          * Width_mm: 680.65
+          * Quantity_for_1_Rack: 1.0
+
+## Admin Panel (Protected View)
+
+*   **Password Protection:**
+    *   Use password: "25212521" to access the Admin Panel.
+*   **Edit Categories:**
+    *   Modify Main Category names.
+    *   Modify Subcategory names.
+*   **Edit Data:**
+    *   Update fixed data values (Description, Length\_mm, Width\_mm, Quantity\_for\_1\_Rack).
+    *   Update calculation equations.
+*   **Add/Delete Categories:**
+    *   Add new Main Categories, Subcategories, and their data.
+    *   Delete existing Main Categories and Subcategories.
+* **All Changes stored to Json file**
+
+# Styling - **IMPORTANT: Closely Match This Style Guide**
+
+*   **Color Scheme:**
+    *   **Primary Color:** Neutral gray (#F0F0F0) - Represented in HSL as: `--background: 240 10% 98%;`
+    *   **Secondary Color:** Darker gray (#A9A9A9) - Represented in HSL as: `--secondary: 0 0% 66%;`
+    *   **Accent Color:** Teal (#008080) - Represented in HSL as: `--primary: 180 100% 25%;`
+    *   **Foreground text color**: `--foreground: 240 10% 10%;`
+*   **Dark mode**:
+    * **Background**: `--background: 240 10% 10%;`
+    * **foreground**: `--foreground: 0 0% 98%;`
+    * **primary**: `--primary: 180 100% 35%;`
+    * **secondary**: `--secondary: 0 0% 30%;`
+*   **Font:** Use a sans-serif font family (e.g., Arial, Helvetica, or the system default).
+*   **Layout:** Clean, tabular layouts for rack data. Consistent spacing and alignment.
+*   **Icons:** Simple, geometric icons for categories and actions.
+*   **Animations:** Subtle transitions for navigation and data updates.
+* **Existing style**:
+
+
+css @tailwind base; @tailwind components; @tailwind utilities;
+
+body {
+font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer base {
+:root {
+    --background: 240 10% 98%; /* Neutral Gray (#F0F0F0) - Adjusted HSL */
+    --foreground: 240 10% 10%; /* Darker text for contrast */
+    --card: 240 10% 98%;
+    --card-foreground: 240 10% 10%;
+    --popover: 240 10% 98%;
+    --popover-foreground: 240 10% 10%;
+    --primary: 180 100% 25%; /* Teal (#008080) */
+    --primary-foreground: 0 0% 100%; /* White text on Teal */
+    --secondary: 0 0% 66%; /* Darker Gray (#A9A9A9) */
+    --secondary-foreground: 0 0% 100%; /* White text on Dark Gray */
+    --muted: 0 0% 90%; /* Lighter Gray for muted elements */
+    --muted-foreground: 0 0% 45.1%;
+    --accent: 180 100% 35%; /* Slightly lighter Teal for hover/active */
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 85%; /* Slightly darker border */
+    --input: 0 0% 90%; /* Input background */
+    --ring: 180 100% 25%; /* Teal for focus rings */
+    --chart-1: 180 100% 25%;
+    --chart-2: 180 80% 35%;
+    --chart-3: 180 60% 45%;
+    --chart-4: 0 0% 66%;
+    --chart-5: 0 0% 50%;
+    --radius: 0.5rem;
+    --sidebar-background: 240 10% 96%; /* Slightly off-white sidebar */
+    --sidebar-foreground: 240 10% 20%;
+    --sidebar-primary: 180 100% 25%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 180 100% 90%; /* Light Teal accent for sidebar */
+    --sidebar-accent-foreground: 180 100% 15%;
+    --sidebar-border: 0 0% 85%;
+    --sidebar-ring: 180 100% 25%;
+}
+.dark {
+    /* Define dark mode colors if needed, inverting or adjusting the light theme */
+    --background: 240 10% 10%;
+    --foreground: 0 0% 98%;
+    --card: 240 10% 10%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 10% 10%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 180 100% 35%; /* Brighter Teal for dark mode */
+    --primary-foreground: 0 0% 10%;
+    --secondary: 0 0% 30%; /* Darker Gray */
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 20%;
+    --muted-foreground: 0 0% 63.9%;
+    --accent: 180 100% 25%; /* Teal accent */
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 25%;
+    --input: 0 0% 20%;
+    --ring: 180 100% 35%;
+    --chart-1: 180 100% 35%;
+    --chart-2: 180 80% 45%;
+    --chart-3: 180 60% 55%;
+    --chart-4: 0 0% 60%;
+    --chart-5: 0 0% 50%;
+    --sidebar-background: 240 10% 15%;
+    --sidebar-foreground: 0 0% 95%;
+    --sidebar-primary: 180 100% 35%;
+    --sidebar-primary-foreground: 0 0% 10%;
+    --sidebar-accent: 180 100% 10%; /* Dark Teal accent */
+    --sidebar-accent-foreground: 0 0% 95%;
+    --sidebar-border: 0 0% 25%;
+    --sidebar-ring: 180 100% 35%;
+}
+}
+}
+
+@layer base {
+* {
+    @apply border-border;
+}
+body {
+    @apply bg-background text-foreground;
+}
+}
+
+
+* **Make Sure to implement the Dark mode also.**
+
+# Technical Requirements
+
+*   **Flutter Version:** Use the latest stable version of Flutter.
+*   **State Management:** Use a suitable state management solution (e.g., Provider, BLoC).
+*   **Data Storage:** Store all rack data in a JSON file within the app's `assets` directory. Implement data persistence for updates made in the Admin Panel.
+*   **UI Design:** Use Flutter's Material Design widgets for a modern, responsive UI, keeping in mind the provided style guide.
+*   **Error Handling:** Implement proper error handling for file operations, data parsing, and calculations.
+
+# Deliverables
+
+*   A fully functional Flutter project.
+*   Well-commented code.
+*   Clear instructions on how to run and build the project.
+*   The `assets` folder with the initial JSON data file.
+*   **Every Thing should be Responsive UI.**
+
+**Please provide the complete Flutter project code, including:**
+
+*   **File Structure:** A clear and organized file structure.
+*   **Dependencies:** A `pubspec.yaml` file with necessary dependencies.
+*   **Code:** All Dart files with complete implementations.
+*   **Assets:** The `assets` folder with the initial JSON data file.
+*   **Build Instructions:** step by step how to build an apk file from this code
+
+

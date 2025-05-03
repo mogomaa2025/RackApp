@@ -1,0 +1,225 @@
+1. Vertical_Rack
+Vertical_Rack_530_120_2U
+Data:
+Description: Rack Main Body
+Length_mm: 318.6
+Width_mm: 798.62
+Quantity_for_1_Rack: 1.0
+Total_Area_mm2: Length_mm * Width_mm
+Total_Area_m2: Total_Area_mm2 / 10^6
+Total_Area: Total_Area_m2 * Quantity_for_1_Rack * 2
+Total_Paint_kg: Total_Area / 7
+Total_Paint_g: Total_Paint_kg * 1000
+2. Slim_Rack
+Slim_Rack_500_475_5U
+Data:
+Description: Slim Rack Main Body
+Length_mm: 651.77
+Width_mm: 768.65
+Quantity_for_1_Rack: 1.0
+Total_Area_mm2: Length_mm * Width_mm
+Total_Area_m2: Total_Area_mm2 / 10^6
+Total_Area: Total_Area_m2 * Quantity_for_1_Rack * 2
+Total_Paint_kg: Total_Area / 7
+Total_Paint_g: Total_Paint_kg * 1000
+3. WNR_Premium
+WNR_600_450_12U
+Data:
+Description: Roof
+Length_mm: 723.42
+Width_mm: 560.88
+Quantity_for_1_Rack: 1.0
+Total_Area_mm2: Length_mm * Width_mm
+Total_Area_m2: Total_Area_mm2 / 10^6
+Total_Area: Total_Area_m2 * Quantity_for_1_Rack * 2
+Total_Paint_kg: Total_Area / 7
+Total_Paint_g: Total_Paint_kg * 1000
+WNR_600_450_15U
+Data:
+Description: Roof
+Length_mm: 723.42
+Width_mm: 560.88
+Quantity_for_1_Rack: 1.0
+Total_Area_mm2: Length_mm * Width_mm
+Total_Area_m2: Total_Area_mm2 / 10^6
+Total_Area: Total_Area_m2 * Quantity_for_1_Rack * 2
+Total_Paint_kg: Total_Area / 7
+Total_Paint_g: Total_Paint_kg * 1000
+WNR_600_450_4U
+Data:
+Description: Roof
+Length_mm: 723.42
+Width_mm: 560.88
+Quantity_for_1_Rack: 1.0
+Total_Area_mm2: Length_mm * Width_mm
+Total_Area_m2: Total_Area_mm2 / 10^6
+Total_Area: Total_Area_m2 * Quantity_for_1_Rack * 2
+Total_Paint_kg: Total_Area / 7
+Total_Paint_g: Total_Paint_kg * 1000
+WNR_600_450_6U
+Data:
+Description: Roof
+Length_mm: 723.42
+Width_mm: 560.88
+Quantity_for_1_Rack: 1.0
+Total_Area_mm2: Length_mm * Width_mm
+Total_Area_m2: Total_Area_mm2 / 10^6
+Total_Area: Total_Area_m2 * Quantity_for_1_Rack * 2
+Total_Paint_kg: Total_Area / 7
+Total_Paint_g: Total_Paint_kg * 1000
+WNR_600_450_9U
+Data:
+Description: Roof
+Length_mm: 723.42
+Width_mm: 560.88
+Quantity_for_1_Rack: 1.0
+Total_Area_mm2: Length_mm * Width_mm
+Total_Area_m2: Total_Area_mm2 / 10^6
+Total_Area: Total_Area_m2 * Quantity_for_1_Rack * 2
+Total_Paint_kg: Total_Area / 7
+Total_Paint_g: Total_Paint_kg * 1000
+WNR_600_600_12U
+Data:
+Description: Roof
+Length_mm: 723.42
+Width_mm: 710.88
+Quantity_for_1_Rack: 1.0
+Total_Area_mm2: Length_mm * Width_mm
+Total_Area_m2: Total_Area_mm2 / 10^6
+Total_Area: Total_Area_m2 * Quantity_for_1_Rack * 2
+Total_Paint_kg: Total_Area / 7
+Total_Paint_g: Total_Paint_kg * 1000
+WNR_600_600_15U
+Data:
+Description: Roof
+Length_mm: 723.42
+Width_mm: 710.88
+Quantity_for_1_Rack: 1.0
+Total_Area_mm2: Length_mm * Width_mm
+Total_Area_m2: Total_Area_mm2 / 10^6
+Total_Area: Total_Area_m2 * Quantity_for_1_Rack * 2
+Total_Paint_kg: Total_Area / 7
+Total_Paint_g: Total_Paint_kg * 1000
+WNR_600_600_4U
+Data:
+Description: Roof
+Length_mm: 723.42
+Width_mm: 710.88
+Quantity_for_1_Rack: 1.0
+Total_Area_mm2: Length_mm * Width_mm
+Total_Area_m2: Total_Area_mm2 / 10^6
+Total_Area: Total_Area_m2 * Quantity_for_1_Rack * 2
+Total_Paint_kg: Total_Area / 7
+Total_Paint_g: Total_Paint_kg * 1000
+WNR_600_600_6U
+Data:
+Description: Roof
+Length_mm: 723.42
+Width_mm: 710.88
+Quantity_for_1_Rack: 1.0
+Total_Area_mm2: Length_mm * Width_mm
+Total_Area_m2: Total_Area_mm2 / 10^6
+Total_Area: Total_Area_m2 * Quantity_for_1_Rack * 2
+Total_Paint_kg: Total_Area / 7
+Total_Paint_g: Total_Paint_kg * 1000
+WNR_600_600_9U
+Data:
+Description: Roof
+Length_mm: 723.42
+Width_mm: 710.88
+Quantity_for_1_Rack: 1.0
+Total_Area_mm2: Length_mm * Width_mm
+Total_Area_m2: Total_Area_mm2 / 10^6
+Total_Area: Total_Area_m2 * Quantity_for_1_Rack * 2
+Total_Paint_kg: Total_Area / 7
+Total_Paint_g: Total_Paint_kg * 1000
+4. WNR_Economy
+WNR_530_400_12U
+Data:
+Description: Roof
+Length_mm: 503.28
+Width_mm: 680.65
+Quantity_for_1_Rack: 1.0
+Total_Area_mm2: Length_mm * Width_mm
+Total_Area_m2: Total_Area_mm2 / 10^6
+Total_Area: Total_Area_m2 * Quantity_for_1_Rack * 2
+Total_Paint_kg: Total_Area / 7
+Total_Paint_g: Total_Paint_kg * 1000
+WNR_530_400_15U
+Data:
+Description: Roof
+Length_mm: 503.28
+Width_mm: 680.65
+Quantity_for_1_Rack: 1.0
+Total_Area_mm2: Length_mm * Width_mm
+Total_Area_m2: Total_Area_mm2 / 10^6
+Total_Area: Total_Area_m2 * Quantity_for_1_Rack * 2
+Total_Paint_kg: Total_Area / 7
+Total_Paint_g: Total_Paint_kg * 1000
+WNR_530_400_4U
+Data:
+Description: Roof
+Length_mm: 503.28
+Width_mm: 680.65
+Quantity_for_1_Rack: 1.0
+Total_Area_mm2: Length_mm * Width_mm
+Total_Area_m2: Total_Area_mm2 / 10^6
+Total_Area: Total_Area_m2 * Quantity_for_1_Rack * 2
+Total_Paint_kg: Total_Area / 7
+Total_Paint_g: Total_Paint_kg * 1000
+WNR_530_400_6U
+Data:
+Description: Roof
+Length_mm: 503.28
+Width_mm: 680.65
+Quantity_for_1_Rack: 1.0
+Total_Area_mm2: Length_mm * Width_mm
+Total_Area_m2: Total_Area_mm2 / 10^6
+Total_Area: Total_Area_m2 * Quantity_for_1_Rack * 2
+Total_Paint_kg: Total_Area / 7
+Total_Paint_g: Total_Paint_kg * 1000
+WNR_530_400_9U
+Data:
+Description: Roof
+Length_mm: 503.28
+Width_mm: 680.65
+Quantity_for_1_Rack: 1.0
+Total_Area_mm2: Length_mm * Width_mm
+Total_Area_m2: Total_Area_mm2 / 10^6
+Total_Area: Total_Area_m2 * Quantity_for_1_Rack * 2
+Total_Paint_kg: Total_Area / 7
+Total_Paint_g: Total_Paint_kg * 1000
+5. WNR_Economy_Cus
+WNR_530_400_6U
+Data:
+Description: Roof
+Length_mm: 603.28
+Width_mm: 680.65
+Quantity_for_1_Rack: 1.0
+Total_Area_mm2: Length_mm * Width_mm
+Total_Area_m2: Total_Area_mm2 / 10^6
+Total_Area: Total_Area_m2 * Quantity_for_1_Rack * 2
+Total_Paint_kg: Total_Area / 7
+Total_Paint_g: Total_Paint_kg * 1000
+WNR_530_450_4U
+Data:
+Description: Roof
+Length_mm: 553.28
+Width_mm: 680.65
+Quantity_for_1_Rack: 1.0
+Total_Area_mm2: Length_mm * Width_mm
+Total_Area_m2: Total_Area_mm2 / 10^6
+Total_Area: Total_Area_m2 * Quantity_for_1_Rack * 2
+Total_Paint_kg: Total_Area / 7
+Total_Paint_g: Total_Paint_kg * 1000
+WNR_530_450_6U
+Data:
+Description: Roof
+Length_mm: 553.28
+Width_mm: 680.65
+Quantity_for_1_Rack: 1.0
+Total_Area_mm2: Length_mm * Width_mm
+Total_Area_m2: Total_Area_mm2 / 10^6
+Total_Area: Total_Area_m2 * Quantity_for_1_Rack * 2
+Total_Paint_kg: Total_Area / 7
+Total_Paint_g: Total_Paint_kg * 1000
